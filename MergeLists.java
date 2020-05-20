@@ -26,7 +26,7 @@ public class MergeLists {
 	 * @param deleteList the list of elements to remove from addList+originalList
 	 * @result String[] returns a resultList fitting above requirements
 	 */
-	public static String[] mergeLists(String[] originalList, String[]  addList, String[] deleteList) {
+	public static final String[] mergeLists(String[] originalList, String[]  addList, String[] deleteList) {
 		HashSet<String> deleteSet = new HashSet<String>(Arrays.asList(deleteList));
 		HashSet<String> resultSet = new HashSet<String>();
 
